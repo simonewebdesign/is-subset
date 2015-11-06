@@ -4,6 +4,8 @@
 
 , "dependencies":
   {}
+  
+, "main": "module.js"
 
 , "scripts":
   { "build": "cd module && babel --out-dir ../ *.js"
