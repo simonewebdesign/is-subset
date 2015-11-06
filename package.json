@@ -4,8 +4,6 @@
 
 , "dependencies":
   {}
-  
-, "main": "module/index.js"
 
 , "scripts":
   { "build": "cd module && babel --out-dir ../ *.js"
@@ -51,4 +49,5 @@
   { "type": "git"
   , "url": "git@github.com:studio-b12/is-subset.git"
   }
+, "main": "./module/index.js"
 }
